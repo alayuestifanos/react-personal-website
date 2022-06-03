@@ -19,20 +19,18 @@ const AboutPage = () => {
             <div className="underline"></div>
           </div>
           <p>
-            My name is Alayu Estifanos.I am a very diligent worker. I put work
-            on what I have to. I will not stop when I face obstacles. Rather, it
-            will encourage me to do more research on it and try to figure it
-            out, to overcome it. I don't only focus on getting the function
-            working but also making sure it is in the most effective and fastest
-            way possible.
+            I am 5th year software engineering student at Addis Ababa
+            University, I have developed a strong foundation in software
+            engineering principles and programming skills. In particular, I have
+            focused on React and Node.js technologies and have gained practical
+            experience through various projects and internships. I'm a fast
+            learner and adaptive.
           </p>
           <p>
-            I'm a fast learner and adaptive. It takes me a few hours to get used
-            to new technology. Also, I'm very good at collaboration work. I'd be
-            the perfect fit for big projects which involve teamwork. I have
-            worked on Flutter, React Native, Angular , Android, React, and
-            NodeJS projects. Developed several Android applications and web
-            applications. 
+            I am highly skilled in creating responsive and user-friendly web
+            applications using React and Node.js, as well as integrating them
+            with various databases and APIs. Furthermore, I am an adaptable and
+            collaborative team player who thrives in fast-paced environments.
           </p>
           <Link to="about" className="btn">
             about me

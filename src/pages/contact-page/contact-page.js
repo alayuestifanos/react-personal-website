@@ -12,7 +12,7 @@ const ContactPage = () => {
       <div class="section-center page-info">
         <p>
           If you are looking to get ahold of me, you can send me an email at
-          <a href="mailto:email@email.com">@Alayu's Email</a>
+          <a href="mailto:se.alayu.estifanos@gmail.com"> Alayu's Email</a>
         </p>
         <p>
           You can also reach me on Twitter at

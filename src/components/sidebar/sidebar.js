@@ -51,12 +51,18 @@ const SideBar = () => {
 
         <ul className="social-icons">
           <li>
-            <a href="https://www.twitter.com" className="social-icon">
+            <a
+              href="https://www.facebook.com/alayu.rossa/"
+              className="social-icon"
+            >
               <FaFacebook />
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com" className="social-icon">
+            <a
+              href="https://www.linkedin.com/in/alayu-estifanos-a32997221/"
+              className="social-icon"
+            >
               <FaLinkedin />
             </a>
           </li>
@@ -66,12 +72,12 @@ const SideBar = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com" className="social-icon">
+            <a href="https://www.instagram.com/" className="social-icon">
               <FaInstagram />
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com" className="social-icon">
+            <a href="https://github.com/alayuestifanos" className="social-icon">
               <FaGithub />
             </a>
           </li>

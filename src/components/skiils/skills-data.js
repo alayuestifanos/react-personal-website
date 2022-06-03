@@ -1,5 +1,6 @@
 const frontendSkills = [
   {
+    id: 1,
     title: "Front End",
     courses: [
       {
@@ -20,6 +21,7 @@ const frontendSkills = [
 
 const backendSkills = [
   {
+    id: 1,
     title: "Back End",
     courses: [
       {
@@ -40,6 +42,7 @@ const backendSkills = [
 
 const mobileSkills = [
   {
+    id: 1,
     title: "Mobile",
     courses: [
       {

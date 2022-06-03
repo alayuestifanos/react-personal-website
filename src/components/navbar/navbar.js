@@ -5,19 +5,16 @@ import { FaBars } from "react-icons/fa";
 
 import "./navbar.css";
 import { useGlobalContext } from "../../context";
+import logo from "../../assets/images/logo.svg";
 
 const NavBar = () => {
-  const { openSidebar} = useGlobalContext();
+  const { openSidebar } = useGlobalContext();
   return (
     <nav className="nav" id="nav">
       <div className="nav-center">
         <div className="nav-header">
-          <img></img>
-          <button
-            onClick={openSidebar}
-            className="nav-btn"
-            id="nav-btn"
-          >
+          <img src={logo}></img>
+          <button onClick={openSidebar} className="nav-btn" id="nav-btn">
             <i className="fas fa-bars">
               <FaBars />
             </i>

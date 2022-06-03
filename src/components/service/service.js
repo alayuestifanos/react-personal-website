@@ -15,9 +15,9 @@ const Service = () => {
         {service.map(
           ({ id, icon, name, description, serviceList, serviceTitle }) => {
             return (
-              <div class="card">
-                <div class="card-side card-front">
-                  <article className="service" key={id}>
+              <div className="card" key={id}>
+                <div className="card-side card-front">
+                  <article className="service">
                     <i className={`fab ${icon} service-icon`}>{icon}</i>
                     <h4>{name}</h4>
                     <div className="underline"></div>
@@ -25,12 +25,13 @@ const Service = () => {
                   </article>
                 </div>
 
-                <div class="card-side card-back">
+                <div className="card-side card-back">
                   <p>{serviceTitle}</p>
                   <ul className="service-list">
-                    {serviceList.map((service) => {
+                    {serviceList.map((service, index) => {
                       return (
                         <li
+                          key={index}
                           className="service-item"
                           style={{ paddingLeft: 30 }}
                         >

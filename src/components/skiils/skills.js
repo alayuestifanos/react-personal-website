@@ -17,75 +17,69 @@ const Skills = () => {
       <div className="section-center skills-center">
         {frontend.map((skill) => {
           return (
-            <>
-              <article>
-                <h3>{skill.title}</h3>
-                {skill.courses.map((course) => {
-                  return (
-                    <div className="skill">
-                      <p>{course.courseName}</p>
-                      <div className="skill-container">
-                        <div
-                          className={`skill-value value-${course.value}`}
-                        ></div>
-                        <p className="skill-text skill-text-70">
-                          {`${course.value}%`}
-                        </p>
-                      </div>
+            <article key={skill.id}>
+              <h3>{skill.title}</h3>
+              {skill.courses.map((course, index) => {
+                return (
+                  <div className="skill" key={index}>
+                    <p>{course.courseName}</p>
+                    <div className="skill-container">
+                      <div
+                        className={`skill-value value-${course.value}`}
+                      ></div>
+                      <p className="skill-text skill-text-70">
+                        {`${course.value}%`}
+                      </p>
                     </div>
-                  );
-                })}
-              </article>
-            </>
+                  </div>
+                );
+              })}
+            </article>
           );
         })}
 
         {backtend.map((skill) => {
           return (
-            <>
-              <article>
-                <h3>{skill.title}</h3>
-                {skill.courses.map((course) => {
-                  return (
-                    <div className="skill">
-                      <p>{course.courseName}</p>
-                      <div className="skill-container">
-                        <div
-                          className={`skill-value value-${course.value}`}
-                        ></div>
-                        <p className="skill-text skill-text-70">
-                          {`${course.value}%`}
-                        </p>
-                      </div>
+            <article key={skill.id}>
+              <h3>{skill.title}</h3>
+              {skill.courses.map((course, index) => {
+                return (
+                  <div className="skill" key={index}>
+                    <p>{course.courseName}</p>
+                    <div className="skill-container">
+                      <div
+                        className={`skill-value value-${course.value}`}
+                      ></div>
+                      <p className="skill-text skill-text-70">
+                        {`${course.value}%`}
+                      </p>
                     </div>
-                  );
-                })}
-              </article>
-            </>
+                  </div>
+                );
+              })}
+            </article>
           );
         })}
         {mobile.map((skill) => {
           return (
-            <>
-              <article>
-                <h3>{skill.title}</h3>
-                {skill.courses.map((course) => {
-                  return (
-                    <div className="skill">
-                      <p>{course.courseName}</p>
-                      <div className="skill-container">
-                        <div
-                          className={`skill-value value-${course.value}`}
-                        ></div>
-                        <p className="skill-text skill-text-70">
-                          {`${course.value}%`}
-                        </p>
-                      </div>
+            <article key={skill.id}>
+              <h3>{skill.title}</h3>
+              {skill.courses.map((course, index) => {
+                return (
+                  <div className="skill" key={index}>
+                    <p>{course.courseName}</p>
+                    <div className="skill-container">
+                      <div
+                        className={`skill-value value-${course.value}`}
+                      ></div>
+                      <p className="skill-text skill-text-70">
+                        {`${course.value}%`}
+                      </p>
                     </div>
-                  );
-                })}
-              </article>
-            </>
+                  </div>
+                );
+              })}
+            </article>
           );
         })}
       </div>

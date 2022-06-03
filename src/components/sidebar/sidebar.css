@@ -37,7 +37,6 @@
 .sidebar-links a:hover {
   color: var(--clr-primary-5);
 }
-w
 .close-btn {
   position: absolute;
   top: 1rem;
@@ -52,9 +51,4 @@ w
 }
 .close-btn:hover {
   color: #e66b6b;
-}
-@media screen and (min-width: 768px) {
-  .sidebar {
-    display: none;
-  }
 }
