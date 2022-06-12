@@ -5,19 +5,20 @@ import AboutPage from "./pages/about-page/about-page";
 import ContactPage from "./pages/contact-page/contact-page";
 import ProjectPage from "./pages/projects-page/project-page";
 import NavBar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="contact" element={<ContactPage />} />
         <Route path="projects" element={<ProjectPage />} />
-        <Route path= '*' element/>
-        
+        <Route path="*" element />
       </Routes>
+      <Footer />
     </div>
   );
 }
