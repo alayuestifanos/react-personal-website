@@ -43,11 +43,3 @@
     border-radius: var(--radius);
   }
 }
-.hero-photo {
-  max-width: 25rem;
-  max-height: 30rem;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: var(--radius);
-  position: relative;
-}

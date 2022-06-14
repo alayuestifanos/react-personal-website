@@ -1,55 +1,66 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
 import "./home-page.css";
 import NavBar from "../../components/navbar/navbar";
 import HeroImage from "../../assets/images/hero-image.jpg";
+import AboutPage from "../about-page/about-page";
 
 const HomePage = () => {
   return (
-    <header class="hero">
-      <div class="section-center hero-center">
-        <article class="hero-info">
-          <div class="underline"></div>
-          <h1>i'm alayu</h1>
-          <h4>freelance web & mobile UI/UX Designer</h4>
-          <Link to="contact" class="btn hero-btn">
-            hire me
-          </Link>
+    <>
+      <header className="hero">
+        <div className="section-center hero-center">
+          <article className="hero-info">
+            <div className="underline"></div>
+            <h1>i'm alayu</h1>
+            <h4>freelance web & mobile UI/UX Designer</h4>
+            <Link to="contact" className="btn hero-btn">
+              hire me
+            </Link>
 
-          <ul class="social-icons hero-icons">
-            <li>
-              <a href="https://www.twitter.com" class="social-icon">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.twitter.com" class="social-icon">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.twitter.com" class="social-icon">
-                <i class="fab fa-squarespace"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.twitter.com" class="social-icon">
-                <i class="fab fa-behance"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.twitter.com" class="social-icon">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </article>
-        <article class="hero-img">
-          <img src={HeroImage} class="hero-photo" alt="john doe" />
-        </article>
-      </div>
-    </header>
+            <ul className="social-icons hero-icons">
+              <li>
+                <a href="https://www.twitter.com" className="social-icon">
+                  <FaFacebook />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" className="social-icon">
+                  <FaLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" className="social-icon">
+                  <FaTwitter />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" className="social-icon">
+                  <FaInstagram />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" className="social-icon">
+                  <FaGithub />
+                </a>
+              </li>
+            </ul>
+          </article>
+          <article className="hero-img">
+            <img src={HeroImage} className="hero-photo" alt="john doe" />
+          </article>
+        </div>
+      </header>
+      <AboutPage />
+    </>
   );
 };
 

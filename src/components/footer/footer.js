@@ -1,34 +1,41 @@
 import React from "react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
 import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <ul class="social-icons">
+    <footer className="footer">
+      <ul className="social-icons">
         <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-facebook"></i>
+          <a href="https://www.twitter.com" className="social-icon">
+            <FaFacebook />
           </a>
         </li>
         <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-linkedin"></i>
+          <a href="https://www.twitter.com" className="social-icon">
+            <FaLinkedin />
           </a>
         </li>
         <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-squarespace"></i>
+          <a href="https://www.twitter.com" className="social-icon">
+            <FaTwitter />
           </a>
         </li>
         <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-behance"></i>
+          <a href="https://www.twitter.com" className="social-icon">
+            <FaInstagram />
           </a>
         </li>
         <li>
-          <a href="https://www.twitter.com" class="social-icon">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.twitter.com" className="social-icon">
+            <FaGithub />
           </a>
         </li>
       </ul>
