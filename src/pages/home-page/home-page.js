@@ -12,6 +12,7 @@ import "./home-page.css";
 import NavBar from "../../components/navbar/navbar";
 import HeroImage from "../../assets/images/hero-image.jpg";
 import AboutPage from "../about-page/about-page";
+import Service from "../../components/service/service";
 
 const HomePage = () => {
   return (
@@ -60,6 +61,7 @@ const HomePage = () => {
         </div>
       </header>
       <AboutPage />
+      <Service />
     </>
   );
 };
