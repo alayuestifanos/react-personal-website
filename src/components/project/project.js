@@ -10,11 +10,10 @@ const Project = () => {
         <h2>latest works</h2>
         <div class="underline"></div>
         <p class="projects-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          repudiandae cupiditate ea facilis incidunt, non sapiente! Debitis
-          magnam, earum assumenda obcaecati cum quaerat facere ratione molestiae
-          dignissimos aliquid blanditiis architecto voluptates delectus
-          voluptate animi nulla! Autem explicabo perspiciatis officia ea.
+          I am constantly exploring new technologies and methodologies to solve
+          complex problems and improve the performance, scalability, and
+          security of software systems.Currently, I focused on developing mobile
+          and web applications.
         </p>
       </div>
 

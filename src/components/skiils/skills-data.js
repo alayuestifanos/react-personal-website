@@ -3,16 +3,16 @@ const frontendSkills = [
     title: "Front End",
     courses: [
       {
-        courseName: "React",
-        value: 70,
+        courseName: "HTML/CSS",
+        value: 95,
       },
       {
         courseName: "Javascript",
-        value: 80,
+        value: 90,
       },
       {
-        courseName: "HTML/CSS",
-        value: 70,
+        courseName: "React",
+        value: 90,
       },
     ],
   },
@@ -23,15 +23,15 @@ const backendSkills = [
     title: "Back End",
     courses: [
       {
-        courseName: "React",
-        value: 70,
+        courseName: "NodeJs",
+        value: 90,
       },
       {
-        courseName: "Javascript",
+        courseName: "Django",
         value: 80,
       },
       {
-        courseName: "HTML/CSS",
+        courseName: ".NET",
         value: 70,
       },
     ],
@@ -43,15 +43,15 @@ const mobileSkills = [
     title: "Mobile",
     courses: [
       {
-        courseName: "React",
-        value: 70,
+        courseName: "Flutter",
+        value: 90,
       },
       {
-        courseName: "Javascript",
+        courseName: "React-Native",
         value: 80,
       },
       {
-        courseName: "HTML/CSS",
+        courseName: "Kotlin",
         value: 70,
       },
     ],

@@ -175,6 +175,10 @@ p {
   border-radius: var(--radius);
   position: relative;
 }
+.hero-photo:hover {
+  transform: scale(1.1);
+  transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
 .social-icons {
   display: grid;
   margin-top: 3rem;

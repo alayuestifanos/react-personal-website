@@ -19,7 +19,7 @@ const Header = () => {
         <article className="hero-info">
           <div className="underline"></div>
           <h1>i'm alayu</h1>
-          <h4>freelance web & mobile UI/UX Designer</h4>
+          <h4>freelance web & mobile App Developer</h4>
           <Link to="contact" className="btn hero-btn">
             hire me
           </Link>
@@ -53,7 +53,9 @@ const Header = () => {
           </ul>
         </article>
         <article className="hero-img">
-          <img src={HeroImage} className="hero-photo" alt="john doe" />
+          <div className="heros">
+            <img src={HeroImage} className="hero-photo" alt="Alayu" />
+          </div>
         </article>
       </div>
     </header>

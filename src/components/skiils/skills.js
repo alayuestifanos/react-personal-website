@@ -25,8 +25,12 @@ const Skills = () => {
                     <div className="skill">
                       <p>{course.courseName}</p>
                       <div className="skill-container">
-                        <div className="skill-value value-70"></div>
-                        <p className="skill-text skill-text-70">70%</p>
+                        <div
+                          className={`skill-value value-${course.value}`}
+                        ></div>
+                        <p className="skill-text skill-text-70">
+                          {`${course.value}%`}
+                        </p>
                       </div>
                     </div>
                   );
@@ -46,8 +50,12 @@ const Skills = () => {
                     <div className="skill">
                       <p>{course.courseName}</p>
                       <div className="skill-container">
-                        <div className="skill-value value-70"></div>
-                        <p className="skill-text skill-text-70">70%</p>
+                        <div
+                          className={`skill-value value-${course.value}`}
+                        ></div>
+                        <p className="skill-text skill-text-70">
+                          {`${course.value}%`}
+                        </p>
                       </div>
                     </div>
                   );
@@ -66,8 +74,12 @@ const Skills = () => {
                     <div className="skill">
                       <p>{course.courseName}</p>
                       <div className="skill-container">
-                        <div className="skill-value value-70"></div>
-                        <p className="skill-text skill-text-70">70%</p>
+                        <div
+                          className={`skill-value value-${course.value}`}
+                        ></div>
+                        <p className="skill-text skill-text-70">
+                          {`${course.value}%`}
+                        </p>
                       </div>
                     </div>
                   );

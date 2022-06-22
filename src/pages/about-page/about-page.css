@@ -12,6 +12,10 @@
 .about-img {
   justify-self: center;
 }
+.abouts {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
 @media screen and (min-width: 992px) {
   .about-center {
     grid-template-columns: 1fr 1fr;
