@@ -6,15 +6,18 @@ import {
   FaTwitter,
   FaGithub,
   FaLinkedin,
+  FaTimes,
 } from "react-icons/fa";
 
 import "./sidebar.css";
 const SideBar = () => {
   return (
-    <aside className="sidebar" id="sidebar">
+    <aside className="sidebar show-sidebar" id="sidebar">
       <div>
         <button className="close-btn" id="close-btn">
-          <i className="fas fa-times"></i>
+          <i className="fas fa-times">
+            <FaTimes />
+          </i>
         </button>
 
         <ul className="sidebar-links">

@@ -7,10 +7,12 @@ import Header from "../../components/header/header";
 import Skills from "../../components/skiils/skills";
 import Project from "../../components/project/project";
 
+
 const HomePage = () => {
   return (
     <>
       <Header />
+      
       <AboutPage />
       <Service />
       <Project />

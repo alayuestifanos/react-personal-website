@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import "./service.css";
 import services from "./service-data";
-import AboutImage from "../../assets/images/about.jpeg";
 const Service = () => {
   const [service, setService] = useState(services);
   return (
@@ -19,7 +18,7 @@ const Service = () => {
               <div class="card">
                 <div class="card-side card-front">
                   <article className="service" key={id}>
-                    <i className={`fab ${icon} service-icon`}></i>
+                    <i className={`fab ${icon} service-icon`}>{icon}</i>
                     <h4>{name}</h4>
                     <div className="underline"></div>
                     <p>{description}</p>
