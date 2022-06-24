@@ -4,6 +4,7 @@ import "./home-page.css";
 import AboutPage from "../about-page/about-page";
 import Service from "../../components/service/service";
 import Header from "../../components/header/header";
+import Skills from "../../components/skiils/skills";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Header />
       <AboutPage />
       <Service />
+      <Skills />
     </>
   );
 };
