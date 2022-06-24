@@ -12,7 +12,7 @@ import {
 import "./sidebar.css";
 const SideBar = () => {
   return (
-    <aside className="sidebar show-sidebar" id="sidebar">
+    <aside className="sidebar" id="sidebar">
       <div>
         <button className="close-btn" id="close-btn">
           <i className="fas fa-times">
