@@ -19,18 +19,19 @@ const AboutPage = () => {
             <div className="underline"></div>
           </div>
           <p>
-            I am 5th year software engineering student at Addis Ababa
-            University, I have developed a strong foundation in software
-            engineering principles and programming skills. In particular, I have
-            focused on React and Node.js technologies and have gained practical
-            experience through various projects and internships. I'm a fast
-            learner and adaptive.
+            I am Alayu. I have a degree in the field of software engineering
+            from Addis Ababa University, I have developed a strong foundation in
+            software engineering principles and programming skills. In
+            particular, I have focused on React and Node.js technologies and
+            have gained practical experience through various projects and
+            internships. I'm a fast learner and adaptive.
           </p>
           <p>
             I am highly skilled in creating responsive and user-friendly web
-            applications using React and Node.js, as well as integrating them
-            with various databases and APIs. Furthermore, I am an adaptable and
-            collaborative team player who thrives in fast-paced environments.
+            applications using React and Node.js,Flutter, as well as integrating
+            them with various databases and APIs. Furthermore, I am an adaptable
+            and collaborative team player who thrives in fast-paced
+            environments.
           </p>
           <Link to="about" className="btn">
             about me
